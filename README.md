@@ -30,3 +30,13 @@ Express is a minimal and flexible Node.js web application framework that provide
 npm install body-parser.
 
 - View Engine : I have used EJS as a view engine as its syntax is similar to HTML and I find it to be easy as compare to handlebars view engine and jade engine
+
+- Now you can run your server at localhost:3000 and click buy in browser,then you will be redirected to paypal payment gateway and here you have to login with your sandbox personnel account .
+![screenshot 15](https://user-images.githubusercontent.com/26309496/44875316-a75d3780-ac52-11e8-8636-23da15be6e2b.png)
+
+- Now you can [visit](https://www.sandbox.paypal.com/) and see if the amount is received in your business account that you have setup in My Apps & Credentials or not.Check if everything is working fine!!
+![screenshot 19](https://user-images.githubusercontent.com/26309496/44875413-f30fe100-ac52-11e8-9a85-0f58deee18a3.png)
+Thanks
+Mohit Sood
+I
+ 
