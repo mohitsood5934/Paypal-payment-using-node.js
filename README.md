@@ -20,3 +20,13 @@ paypal.configure({<br/>
   'client_id': 'your client_id',<br/>
   'client_secret': 'your client_secret'<br/>
 });
+
+- Framework used:Express.js
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is an open source framework developed and maintained by the Node.js foundation.
+
+- Middleware used:<br/>
+
+1. body-parser: For parsing the incoming request it is used.It is available under req.body property. 
+npm install body-parser.
+
+- View Engine : I have used EJS as a view engine as its syntax is similar to HTML and I find it to be easy as compare to handlebars view engine and jade engine
