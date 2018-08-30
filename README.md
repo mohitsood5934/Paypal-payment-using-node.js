@@ -8,3 +8,13 @@ visit the link [https://developer.paypal.com/](url) and login with your Paypal I
 - Make two accounts one Personnel account that  you will have to use while buying the item through Paypal and the other Business account that will be used as the account that will receive the payment.
 Select the country as U.S.A not India otherwise some error can occur as we are using 'sandbox' box for testing purpose not live mode. 
 ![screenshot 11](https://user-images.githubusercontent.com/26309496/44873610-9100ad00-ac4d-11e8-9c4a-c4cea5502cc6.png)
+- Add dependency 'paypal-rest-sdk' in your package.json file.
+npm install paypal-rest-sdk  for installing the module using node.js command prompt.
+
+- require paypal-rest-sdk in your file<br/>
+-create config options with mode,client_id and client_secret<br/>
+paypal.configure({<br/>
+  'mode': 'sandbox', //sandbox or live<br/>
+  'client_id': 'your client_id',<br/>
+  'client_secret': 'your client_secret'<br/>
+});
